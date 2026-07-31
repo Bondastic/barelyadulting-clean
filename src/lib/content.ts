@@ -73,7 +73,7 @@ export const defaultContent: SiteContent = {
   name: "Barely Adulting POV",
   description:
     "Real day-in-the-life content about fatherhood, self-improvement, and the honest side of adulting. No filters, no pretending. Just showing up.",
-  email: "contact@barelyadultingpov.com",
+  email: "contact.barelyadultingpov@gmail.com",
   logoUrl: "/logo.jpg",
   seo: {
     title: "Barely Adulting POV",
