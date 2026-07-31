@@ -48,18 +48,69 @@ export default async function PrivacyPage() {
               <div>
                 <h2 className="text-2xl font-extrabold text-ink">Who this policy covers</h2>
                 <p className="mt-3 leading-relaxed">
-                  This Privacy Policy applies to visitors who use this website, including people who submit business inquiries, sponsorship requests, collaboration ideas, or general messages through the contact form.
+                  This Privacy Policy applies to visitors who use this website (&quot;the Site&quot;), including
+                  people who submit business inquiries, sponsorship requests, collaboration ideas, or general
+                  messages through the contact form, or who email the Site directly.
+                </p>
+                <p className="mt-3 leading-relaxed">
+                  By using this Site, you acknowledge the practices described in this policy. If you do not agree
+                  with these practices, please do not submit information through the contact form or email the
+                  Site.
                 </p>
               </div>
 
               <div>
-                <h2 className="text-2xl font-extrabold text-ink">Information collected</h2>
+                <h2 className="text-2xl font-extrabold text-ink">Who is responsible for your information</h2>
                 <p className="mt-3 leading-relaxed">
-                  When you submit the contact form, the website may collect your name, email address, company or brand name, partnership type, message, and confirmation that you accepted this Privacy Policy. If you email directly, the information you choose to include in that email is collected as well.
+                  {content.name} operates this Site and is the party responsible for the information described in
+                  this policy (&quot;we,&quot; &quot;us,&quot; &quot;our&quot;). Questions or requests can be sent
+                  to the contact address at the bottom of this page.
+                </p>
+              </div>
+
+              <div>
+                <h2 className="text-2xl font-extrabold text-ink">Information we collect</h2>
+                <p className="mt-3 leading-relaxed">
+                  <span className="font-semibold text-ink">Information you provide directly: </span>
+                  When you submit the contact form, we may collect your name, email address, company or brand
+                  name, partnership type, message content, and confirmation that you accepted this Privacy Policy.
+                  If you email us directly, we collect whatever information you choose to include in that email.
                 </p>
                 <p className="mt-3 leading-relaxed">
-                  The website also uses basic technical information, such as IP-derived rate limiting data and request details, to protect the form from spam and abuse. When stored for security, IP information is hashed where practical and used only for abuse prevention.
+                  <span className="font-semibold text-ink">Information collected automatically: </span>
+                  We use basic technical information, such as an IP-derived rate-limiting identifier and request
+                  metadata, to protect the form from spam and abuse. Where stored, IP-derived data is hashed where
+                  practical and used only for abuse prevention, not for tracking or profiling individuals.
                 </p>
+                <p className="mt-3 leading-relaxed">
+                  <span className="font-semibold text-ink">Cookies and similar technologies: </span>
+                  This Site does not currently use advertising or analytics cookies. If that changes in the
+                  future, this policy will be updated to describe what is used and to provide any consent
+                  mechanism required in your region.
+                </p>
+              </div>
+
+              <div>
+                <h2 className="text-2xl font-extrabold text-ink">Why we process this information</h2>
+                <p className="mt-3 leading-relaxed">
+                  Where applicable law requires a stated legal basis (for example, under the EU/UK GDPR), we
+                  process your information on these grounds:
+                </p>
+                <ul className="mt-3 list-disc space-y-2 pl-5 leading-relaxed">
+                  <li>
+                    <span className="font-semibold text-ink">Consent</span> &mdash; you provide your information
+                    voluntarily and confirm acceptance of this policy before submitting the form.
+                  </li>
+                  <li>
+                    <span className="font-semibold text-ink">Legitimate interests</span> &mdash; responding to
+                    inquiries, evaluating partnership opportunities, and protecting the Site against spam and
+                    abuse are legitimate business interests, balanced against your rights.
+                  </li>
+                  <li>
+                    <span className="font-semibold text-ink">Legal obligation</span> &mdash; where retention or
+                    disclosure is required by law.
+                  </li>
+                </ul>
               </div>
 
               <div>
@@ -69,52 +120,123 @@ export default async function PrivacyPage() {
                   <li>To evaluate sponsorship, collaboration, or brand partnership opportunities.</li>
                   <li>To prevent spam, automated abuse, duplicate submissions, and malicious content.</li>
                   <li>To keep a reasonable record of business communication.</li>
-                  <li>To improve the reliability and security of the website.</li>
+                  <li>To improve the reliability and security of the Site.</li>
                 </ul>
+                <p className="mt-3 leading-relaxed">
+                  We do not use the information collected through this form for advertising, resale, or
+                  third-party marketing.
+                </p>
               </div>
 
               <div>
-                <h2 className="text-2xl font-extrabold text-ink">Web3Forms</h2>
+                <h2 className="text-2xl font-extrabold text-ink">Third-party service providers</h2>
                 <p className="mt-3 leading-relaxed">
-                  This website uses Web3Forms to deliver contact form submissions to the configured inbox. Form details are sent to Web3Forms for the purpose of email delivery and spam protection. Web3Forms processes that information according to its own terms and privacy practices.
+                  <span className="font-semibold text-ink">Web3Forms</span> &mdash; This Site uses Web3Forms to
+                  deliver contact form submissions to our inbox. Form details are transmitted to Web3Forms for the
+                  purpose of email delivery and spam protection. Web3Forms processes that information according
+                  to its own privacy practices, which we encourage you to review on their website. The Web3Forms
+                  access key used to submit the form is a public-facing key by design (not a secret credential);
+                  it does not expose your submitted data to unrelated third parties beyond the delivery function
+                  described here.
                 </p>
                 <p className="mt-3 leading-relaxed">
-                  The Web3Forms access key is handled on the server when configured, and private keys are not exposed in the browser bundle.
+                  <span className="font-semibold text-ink">Hosting and infrastructure</span> &mdash; The Site is
+                  hosted using standard third-party infrastructure providers, which may incidentally process
+                  technical request data (such as IP addresses) as part of normal web hosting operations.
+                </p>
+              </div>
+
+              <div>
+                <h2 className="text-2xl font-extrabold text-ink">International data transfers</h2>
+                <p className="mt-3 leading-relaxed">
+                  Because service providers such as Web3Forms and our hosting provider may operate servers outside
+                  your country of residence, your information may be transferred to and processed in countries
+                  other than your own, including the United States. Where required, we rely on the safeguards
+                  those providers offer (such as standard contractual clauses or equivalent mechanisms) for such
+                  transfers.
                 </p>
               </div>
 
               <div>
                 <h2 className="text-2xl font-extrabold text-ink">Data retention</h2>
                 <p className="mt-3 leading-relaxed">
-                  Business inquiry records may be kept for as long as reasonably needed to respond, manage potential partnerships, keep business records, and protect the website. In most cases, inquiries are reviewed periodically and are not kept longer than necessary. Short-term rate limiting data is used only to prevent abuse.
+                  Business inquiry records are kept for as long as reasonably needed to respond, manage potential
+                  partnerships, maintain business records, and protect the Site, and are reviewed periodically.
+                  Short-term rate-limiting data is retained only as long as needed to prevent abuse and is not
+                  kept indefinitely.
                 </p>
               </div>
 
               <div>
                 <h2 className="text-2xl font-extrabold text-ink">Sharing information</h2>
                 <p className="mt-3 leading-relaxed">
-                  Personal information is not sold. Information may be shared with service providers that help operate the website, deliver email, host the site, manage content, or protect against spam. Information may also be disclosed if required by law or needed to protect rights, safety, or security.
+                  We do not sell personal information. Information may be shared with:
                 </p>
+                <ul className="mt-3 list-disc space-y-2 pl-5 leading-relaxed">
+                  <li>
+                    Service providers that help operate the Site, deliver email, host content, or protect against
+                    spam (such as Web3Forms).
+                  </li>
+                  <li>
+                    Parties as required by law, legal process, or to protect rights, safety, or security.
+                  </li>
+                </ul>
               </div>
 
               <div>
-                <h2 className="text-2xl font-extrabold text-ink">Your choices and rights</h2>
+                <h2 className="text-2xl font-extrabold text-ink">Your rights and choices</h2>
                 <p className="mt-3 leading-relaxed">
-                  You can request access to, correction of, or deletion of personal information you submitted through the website. You can also ask that a business inquiry no longer be used for follow-up. Some records may need to be retained when required for legal, security, or legitimate business reasons.
+                  Depending on where you live, you may have rights to access, correct, delete, or restrict the use
+                  of personal information you have submitted, and to object to certain processing. You may also
+                  withdraw consent at any time, which will not affect processing that already occurred before
+                  withdrawal.
+                </p>
+                <p className="mt-3 leading-relaxed">
+                  <span className="font-semibold text-ink">
+                    If you are in the European Economic Area or United Kingdom (GDPR / UK GDPR):
+                  </span>{" "}
+                  You have the rights described above, plus the right to data portability and the right to lodge
+                  a complaint with your local data protection authority.
+                </p>
+                <p className="mt-3 leading-relaxed">
+                  <span className="font-semibold text-ink">If you are a California resident (CCPA / CPRA):</span>{" "}
+                  You have the right to know what personal information is collected, to request deletion, to
+                  correct inaccurate information, and to not be discriminated against for exercising these
+                  rights. This Site does not sell or &quot;share&quot; personal information as defined under
+                  California law.
+                </p>
+                <p className="mt-3 leading-relaxed">
+                  To exercise any of these rights, contact us using the details below. We may need to verify your
+                  identity before completing certain requests.
                 </p>
               </div>
 
               <div>
                 <h2 className="text-2xl font-extrabold text-ink">Children&apos;s privacy</h2>
                 <p className="mt-3 leading-relaxed">
-                  This website is intended for general audiences and business communication. It is not designed to knowingly collect personal information from children under 13. If you believe a child has submitted personal information, please get in touch so it can be reviewed and removed if appropriate.
+                  This Site is intended for a general, adult audience and business communication. It is not
+                  directed at children and we do not knowingly collect personal information from children under
+                  13 (or the relevant minimum age in your jurisdiction). If you believe a child has submitted
+                  personal information through this Site, please contact us so it can be reviewed and removed.
                 </p>
               </div>
 
               <div>
                 <h2 className="text-2xl font-extrabold text-ink">Security</h2>
                 <p className="mt-3 leading-relaxed">
-                  Reasonable technical and organizational measures are used to protect submissions, including server-side validation, sanitization, rate limiting, bot protection, and security headers. No website or email system can be guaranteed to be completely secure, but the form is designed to reduce common risks.
+                  We use reasonable technical and organizational measures to protect submissions, including
+                  server-side validation, input sanitization, rate limiting, bot protection, and standard security
+                  headers. No website or email system can be guaranteed to be completely secure, but the form is
+                  designed to reduce common risks.
+                </p>
+              </div>
+
+              <div>
+                <h2 className="text-2xl font-extrabold text-ink">Changes to this policy</h2>
+                <p className="mt-3 leading-relaxed">
+                  This policy may be updated from time to time to reflect changes in our practices or applicable
+                  law. The effective date above reflects the most recent revision, and the latest version will
+                  always be posted on this page.
                 </p>
               </div>
 
@@ -134,7 +256,8 @@ export default async function PrivacyPage() {
 
               <div className="rounded-2xl bg-cream p-5 text-sm leading-relaxed text-ink-soft">
                 <p>
-                  This policy may be updated from time to time. The latest version will always be posted on this page.
+                  This policy may be updated from time to time. The latest version will always be posted on this
+                  page.
                 </p>
                 <Link
                   href="/#sponsor"
