@@ -48,9 +48,9 @@ export default async function PrivacyPage() {
               <div>
                 <h2 className="text-2xl font-extrabold text-ink">Who this policy covers</h2>
                 <p className="mt-3 leading-relaxed">
-                  This Privacy Policy applies to visitors who use this website (&quot;the Site&quot;), including
+                  This Privacy Policy applies to visitors who use my website, including
                   people who submit business inquiries, sponsorship requests, collaboration ideas, or general
-                  messages through the contact form, or who email the Site directly.
+                  messages through the contact form, or who email me directly.
                 </p>
                 <p className="mt-3 leading-relaxed">
                   By using this Site, you acknowledge the practices described in this policy. If you do not agree
@@ -62,8 +62,8 @@ export default async function PrivacyPage() {
               <div>
                 <h2 className="text-2xl font-extrabold text-ink">Who is responsible for your information</h2>
                 <p className="mt-3 leading-relaxed">
-                  {content.name} operates this Site and is the party responsible for the information described in
-                  this policy (&quot;we,&quot; &quot;us,&quot; &quot;our&quot;). Questions or requests can be sent
+                  Barely Adulting POV operates this Site and is the party responsible for the information described in
+                  this policy. Questions or requests can be sent
                   to the contact address at the bottom of this page.
                 </p>
               </div>
@@ -72,13 +72,13 @@ export default async function PrivacyPage() {
                 <h2 className="text-2xl font-extrabold text-ink">Information we collect</h2>
                 <p className="mt-3 leading-relaxed">
                   <span className="font-semibold text-ink">Information you provide directly: </span>
-                  When you submit the contact form, we may collect your name, email address, company or brand
+                  When you submit the contact form, I may collect your name, email address, company or brand
                   name, partnership type, message content, and confirmation that you accepted this Privacy Policy.
-                  If you email us directly, we collect whatever information you choose to include in that email.
+                  If you email me directly, I collect whatever information you choose to include in that email.
                 </p>
                 <p className="mt-3 leading-relaxed">
                   <span className="font-semibold text-ink">Information collected automatically: </span>
-                  We use basic technical information, such as an IP-derived rate-limiting identifier and request
+                  I use basic technical information, such as an IP-derived rate-limiting identifier and request
                   metadata, to protect the form from spam and abuse. Where stored, IP-derived data is hashed where
                   practical and used only for abuse prevention, not for tracking or profiling individuals.
                 </p>
@@ -93,7 +93,7 @@ export default async function PrivacyPage() {
               <div>
                 <h2 className="text-2xl font-extrabold text-ink">Why we process this information</h2>
                 <p className="mt-3 leading-relaxed">
-                  Where applicable law requires a stated legal basis (for example, under the EU/UK GDPR), we
+                  Where applicable law requires a stated legal basis (for example, under the EU/UK GDPR), I
                   process your information on these grounds:
                 </p>
                 <ul className="mt-3 list-disc space-y-2 pl-5 leading-relaxed">
@@ -103,7 +103,7 @@ export default async function PrivacyPage() {
                   </li>
                   <li>
                     <span className="font-semibold text-ink">Legitimate interests</span> &mdash; responding to
-                    inquiries, evaluating partnership opportunities, and protecting the Site against spam and
+                    inquiries, evaluating partnership opportunities, and protecting the site against spam and
                     abuse are legitimate business interests, balanced against your rights.
                   </li>
                   <li>
@@ -120,10 +120,10 @@ export default async function PrivacyPage() {
                   <li>To evaluate sponsorship, collaboration, or brand partnership opportunities.</li>
                   <li>To prevent spam, automated abuse, duplicate submissions, and malicious content.</li>
                   <li>To keep a reasonable record of business communication.</li>
-                  <li>To improve the reliability and security of the Site.</li>
+                  <li>To improve the reliability and security of the site.</li>
                 </ul>
                 <p className="mt-3 leading-relaxed">
-                  We do not use the information collected through this form for advertising, resale, or
+                  I do not use the information collected through this form for advertising, resale, or
                   third-party marketing.
                 </p>
               </div>
@@ -131,16 +131,16 @@ export default async function PrivacyPage() {
               <div>
                 <h2 className="text-2xl font-extrabold text-ink">Third-party service providers</h2>
                 <p className="mt-3 leading-relaxed">
-                  <span className="font-semibold text-ink">Web3Forms</span> &mdash; This Site uses Web3Forms to
+                  <span className="font-semibold text-ink">Web3Forms</span> &mdash; This site uses Web3Forms to
                   deliver contact form submissions to our inbox. Form details are transmitted to Web3Forms for the
                   purpose of email delivery and spam protection. Web3Forms processes that information according
-                  to its own privacy practices, which we encourage you to review on their website. The Web3Forms
+                  to its own privacy practices, which I encourage you to review on their website. The Web3Forms
                   access key used to submit the form is a public-facing key by design (not a secret credential);
                   it does not expose your submitted data to unrelated third parties beyond the delivery function
                   described here.
                 </p>
                 <p className="mt-3 leading-relaxed">
-                  <span className="font-semibold text-ink">Hosting and infrastructure</span> &mdash; The Site is
+                  <span className="font-semibold text-ink">Hosting and infrastructure</span> &mdash; The site is
                   hosted using standard third-party infrastructure providers, which may incidentally process
                   technical request data (such as IP addresses) as part of normal web hosting operations.
                 </p>
@@ -151,7 +151,7 @@ export default async function PrivacyPage() {
                 <p className="mt-3 leading-relaxed">
                   Because service providers such as Web3Forms and our hosting provider may operate servers outside
                   your country of residence, your information may be transferred to and processed in countries
-                  other than your own, including the United States. Where required, we rely on the safeguards
+                  other than your own, including the United States. Where required, I rely on the safeguards
                   those providers offer (such as standard contractual clauses or equivalent mechanisms) for such
                   transfers.
                 </p>
@@ -161,7 +161,7 @@ export default async function PrivacyPage() {
                 <h2 className="text-2xl font-extrabold text-ink">Data retention</h2>
                 <p className="mt-3 leading-relaxed">
                   Business inquiry records are kept for as long as reasonably needed to respond, manage potential
-                  partnerships, maintain business records, and protect the Site, and are reviewed periodically.
+                  partnerships, maintain business records, and protect the site.
                   Short-term rate-limiting data is retained only as long as needed to prevent abuse and is not
                   kept indefinitely.
                 </p>
@@ -170,11 +170,11 @@ export default async function PrivacyPage() {
               <div>
                 <h2 className="text-2xl font-extrabold text-ink">Sharing information</h2>
                 <p className="mt-3 leading-relaxed">
-                  We do not sell personal information. Information may be shared with:
+                  I do not sell personal information. Information may be shared with:
                 </p>
                 <ul className="mt-3 list-disc space-y-2 pl-5 leading-relaxed">
                   <li>
-                    Service providers that help operate the Site, deliver email, host content, or protect against
+                    Service providers that help operate the site, deliver email, host content, or protect against
                     spam (such as Web3Forms).
                   </li>
                   <li>
@@ -202,11 +202,11 @@ export default async function PrivacyPage() {
                   <span className="font-semibold text-ink">If you are a California resident (CCPA / CPRA):</span>{" "}
                   You have the right to know what personal information is collected, to request deletion, to
                   correct inaccurate information, and to not be discriminated against for exercising these
-                  rights. This Site does not sell or &quot;share&quot; personal information as defined under
+                  rights. This site does not sell or &quot;share&quot; personal information as defined under
                   California law.
                 </p>
                 <p className="mt-3 leading-relaxed">
-                  To exercise any of these rights, contact us using the details below. We may need to verify your
+                  To exercise any of these rights, contact me using the details below. I may need to verify your
                   identity before completing certain requests.
                 </p>
               </div>
@@ -215,16 +215,16 @@ export default async function PrivacyPage() {
                 <h2 className="text-2xl font-extrabold text-ink">Children&apos;s privacy</h2>
                 <p className="mt-3 leading-relaxed">
                   This Site is intended for a general, adult audience and business communication. It is not
-                  directed at children and we do not knowingly collect personal information from children under
+                  directed at children and I do not knowingly collect personal information from children under
                   13 (or the relevant minimum age in your jurisdiction). If you believe a child has submitted
-                  personal information through this Site, please contact us so it can be reviewed and removed.
+                  personal information through this site, please contact me so it can be reviewed and removed at contact.barelyadultingpov@gmail.com.
                 </p>
               </div>
 
               <div>
                 <h2 className="text-2xl font-extrabold text-ink">Security</h2>
                 <p className="mt-3 leading-relaxed">
-                  We use reasonable technical and organizational measures to protect submissions, including
+                  I use reasonable technical and organizational measures to protect submissions, including
                   server-side validation, input sanitization, rate limiting, bot protection, and standard security
                   headers. No website or email system can be guaranteed to be completely secure, but the form is
                   designed to reduce common risks.
@@ -234,7 +234,7 @@ export default async function PrivacyPage() {
               <div>
                 <h2 className="text-2xl font-extrabold text-ink">Changes to this policy</h2>
                 <p className="mt-3 leading-relaxed">
-                  This policy may be updated from time to time to reflect changes in our practices or applicable
+                  This policy may be updated from time to time to reflect changes in my practices or applicable
                   law. The effective date above reflects the most recent revision, and the latest version will
                   always be posted on this page.
                 </p>
